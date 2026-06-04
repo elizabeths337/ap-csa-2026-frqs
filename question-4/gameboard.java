@@ -1,12 +1,12 @@
 public int getPointsForRow(int targetRow) {
   int count = 0;
-  Boolean isCol = True;
+  Boolean isCol = true;
+  String sameCol = board[targetRow][0].getColor();
 
   for (int i = 0; i < board[targetRow].length; i++) {
-    String sameCol = board[targetRow][0].getColor();
     count += board[targetRow][i].getPoints();
     if (! sameCol.equals(board[targetRow][i].getColor()) {
-      isCol = False;
+      isCol = false;
   }
 
   if (isCol) {
