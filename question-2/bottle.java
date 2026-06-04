@@ -3,12 +3,13 @@ public class Bottle {
   private double curr;
 
   public Bottle (double amount) {
-    mL = amount;    
+    mL = amount;
+    curr = amount;
   }
   
   public double updateAmount(double less) {
     curr -= less;
-    if (curr >= (mL * 0.25) {
+    if (curr >= (mL * 0.25)) {
         curr = mL;
     }
     return curr;
