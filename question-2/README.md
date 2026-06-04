@@ -6,7 +6,7 @@
 ## Constructor
 * Contains one double parameter, that sets the mL capacity to the double value passed into the object.
 
-## updateAmount Class
+## updateAmount Method
 * Takes in a double parameter.
 * The value that is passed in is then subtracted to the current mL value in the bottle.
 * If the updated value of mL is less than 25% (0.25) of the capacity (inital mL of the bottle), then the bottle is reset and the current mL value is reset to the capacity.
